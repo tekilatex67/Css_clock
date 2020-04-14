@@ -29,24 +29,31 @@
     }
     
     .seconds_hand {
-        height: 4px;
-        width: 50%;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        height: 3px;
+        width: 45%;
         top: 50%;
+        left: 5%;
         background: #fff;
         z-index: 1;
     }
     
     .minutes_hand {
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
         height: 6px;
-        width: 45%;
+        width: 40%;
         top: 50%;
-        left: 5%;
+        left: 10%;
         background: #2193b0;
         z-index: 5;
     }
     
     .hours_hand {
-        height: 6px;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        height: 8px;
         width: 25%;
         top: 50%;
         left: 25%;
